@@ -1,0 +1,23 @@
+.portfolio {
+    padding: 50px;
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+    }
+    .portfolio-items {
+      display: flex;
+      justify-content: space-around;
+      .portfolio-item {
+        width: 30%;
+        img {
+          width: 100%;
+          border-radius: 10px;
+        }
+        h3 {
+          font-size: 1.8rem;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+  

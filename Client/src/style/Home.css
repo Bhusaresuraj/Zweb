@@ -1,0 +1,40 @@
+.home {
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: url('/assets/hero-bg.jpg');
+      background-size: cover;
+      padding: 100px;
+      h1 {
+        font-size: 3rem;
+        color: #fff;
+      }
+      p {
+        color: #f1f1f1;
+      }
+      .cta-btn {
+        background: #ff6f61;
+        padding: 10px 20px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        &:hover {
+          background: #ff4c3b;
+        }
+      }
+    }
+    .clients {
+      margin: 50px 0;
+      text-align: center;
+      .client-logos {
+        display: flex;
+        justify-content: space-around;
+        img {
+          width: 150px;
+        }
+      }
+    }
+  }
+  
+  

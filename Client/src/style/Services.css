@@ -1,0 +1,24 @@
+.services {
+    padding: 50px;
+    background-color: #f4f4f4;
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+    }
+    .service-list {
+      display: flex;
+      justify-content: space-around;
+      .service-item {
+        background: white;
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 10px;
+        width: 30%;
+        text-align: center;
+        h3 {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+  
